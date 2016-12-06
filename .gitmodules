@@ -4,3 +4,9 @@
 [submodule "bash-completion"]
 	path = bash-completion
 	url=https://github.com/scop/bash-completion.git
+[submodule "gitflow"]
+	path = gitflow
+	url = git@github.com:fanghuaqi/gitflow.git
+[submodule "apt-cyg"]
+	path = apt-cyg
+	url = https://github.com/transcode-open/apt-cyg.git

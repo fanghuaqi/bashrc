@@ -1,0 +1,10 @@
+### Include extra plugins
+if [ -f ~/.bashrc.d/bash_plugins.bash ] ; then
+   source .bashrc.d/bash_plugins.bash
+fi
+
+
+### Include personal alias
+if [ -f ~/.bashrc.d/bash_alias.bash ] ; then
+   source ~/.bashrc.d/bash_alias.bash
+fi
