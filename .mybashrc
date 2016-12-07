@@ -2,6 +2,12 @@
 prewd=`pwd`
 cd ~/.bashrc.d
 
+### Include misc bash options
+if [ -f misc.bash ] ; then
+   source misc.bash
+fi
+
+
 ### Include extra plugins
 if [ -f bash_plugins.bash ] ; then
    source bash_plugins.bash
