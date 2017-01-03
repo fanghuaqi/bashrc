@@ -1,5 +1,5 @@
 ### cd to bashrc folder
-prewd=`pwd`
+prewd=$(pwd)
 cd ~/.bashrc.d
 
 ### Include misc bash options
