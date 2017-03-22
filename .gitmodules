@@ -1,12 +1,12 @@
 [submodule "git-flow-completion"]
 	path = git-flow-completion
-	url=https://github.com/bobthecow/git-flow-completion.git
+	url = https://github.com/bobthecow/git-flow-completion.git
 [submodule "bash-completion"]
 	path = bash-completion
-	url=https://github.com/scop/bash-completion.git
+	url = https://github.com/scop/bash-completion.git
 [submodule "gitflow"]
 	path = gitflow
-	url = git@github.com:fanghuaqi/gitflow.git
+	url = https://github.com/fanghuaqi/bashrc.git
 [submodule "apt-cyg"]
 	path = apt-cyg
 	url = https://github.com/transcode-open/apt-cyg.git
