@@ -1,5 +1,4 @@
 ### cd to bashrc folder
-prewd=$(pwd)
 cd ~/.bashrc.d
 
 ### Include misc bash options
@@ -7,18 +6,15 @@ if [ -f misc.bash ] ; then
    source misc.bash
 fi
 
-
 ### Include extra plugins
 if [ -f bash_plugins.bash ] ; then
    source bash_plugins.bash
 fi
-
 
 ### Include personal alias
 if [ -f bash_alias.bash ] ; then
    source bash_alias.bash
 fi
 
-
 ### Return to previous folder
-cd $prewd
+cd $OLDPWD
